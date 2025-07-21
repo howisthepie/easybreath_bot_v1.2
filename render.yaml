@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: easybreath-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python easybreath_bot.py
