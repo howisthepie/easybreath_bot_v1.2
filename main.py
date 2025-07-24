@@ -7,7 +7,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 from core.config import conf
 from core.database import create_tables
 
-
+TG = "token"
 OPENROUTER_API_KEY = conf['OPENROUTER_API_KEY']
 OPENROUTER_URL = conf['OPENROUTER_URL']
 
